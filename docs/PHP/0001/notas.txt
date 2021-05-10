@@ -1,0 +1,78 @@
+Temario del curso 
+
+Primera parte 
+
+Introducción a PHP
+
+	Lenguaje cliente y lenguaje servidor 
+	componentes de la aplicación
+
+
+
+Instalación del software 
+
+	Instalación servidor web
+	Instalación de exenciones PHP
+	Instalación de gestor MySql
+	Instalación del Bundle
+
+
+
+Sintaxis PHP
+
+	Html y PHP
+	Datos y variables 
+	Constantes
+	Operadores 
+	Bucles y condicionales 
+	Funciones 
+	Matices 
+
+
+
+Segunda parte 
+
+MySql
+	 El lenguaje Sql
+	 Uso de PHPMyAdmin
+	 Creación y manejo de BBDD y MySql
+	 Bakup y restauración de datos
+
+
+
+Conexiones PHP y MySql
+
+	Consultas a BBDD  con funciones PHP
+
+
+
+Trabajo con formularios 
+
+	PLantillas 
+
+
+
+Tareas frecuentas con PHP
+
+	Manejo de archivos
+	Manejo de fecha y hora 
+	Etc
+
+
+
+Cookies y Sesiones  
+
+
+
+Seguridad 
+
+
+
+Manejo de errores 
+
+
+
+Crear aplicación completa practica 
+
+
+
