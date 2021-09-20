@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+  <title>
+    Proyectos
+  </title>
+  <meta charset="utf-8"/>
+  <link href="Archivo/img/perfil.jpg" rel="shortcut icon" type="image/jpg"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    a:link {
+  text-decoration: none;
+}
+.menux img {
+    width: 20px;
+    height: 20px;
+}.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+  </style>
+  <body class="w3-light-grey">
+    <!-- Top container -->
+    <div class="w3-bar w3-top w3-large w3-card-4" style="z-index:4; background-color:#657786; color: white;">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
+        <i class="fa fa-bars">
+        </i>
+        Menu
+      </button>
+      <span class="w3-bar-item w3-right logo">
+        <a href="https://twitter.com/codefuncode" target="_blank">
+          <img src="Archivo/img/all/twitter.png" style="margin: -10px 10px;"/>
+          #codefuncode
+        </a>
+      </span>
+    </div>
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-animate-left w3-card-4" id="mySidebar" style="z-index:3;width:300px; background-color: #1DA1F2; color: white;">
+      <br/>
+      <div class="w3-container w3-row">
+        <div class="w3-col s4">
+          <img class="w3-circle w3-margin-right" src="Archivo/img/perfil.jpg" style="width:46px"/>
+        </div>
+        <div class="w3-col s8 w3-bar">
+          <span>
+            Carlos
+            <strong>
+              Alemán
+            </strong>
+          </span>
+          <br/>
+          <!--   <a class="w3-bar-item w3-button" href="#">
+            <i class="fa fa-envelope">
+            </i>
+          </a>
+          <a class="w3-bar-item w3-button" href="#">
+            <i class="fa fa-user">
+            </i>
+          </a>
+          <a class="w3-bar-item w3-button" href="#">
+            <i class="fa fa-cog">
+            </i>
+          </a> -->
+        </div>
+      </div>
+      <hr/>
+      <div class="w3-container">
+        <h5>
+          Contenido
+        </h5>
+      </div>
+      <div class="w3-bar-block menux">
+        <a class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" href="#" onclick="w3_close()" title="close menu">
+          <i class="fa fa-remove fa-fw">
+          </i>
+          Cerrar
+        </a>
+        <a class="w3-bar-item w3-button w3-padding" href="web/html/index.php" target="_blank">
+          <img src="Archivo/img/all/html5.png"/>
+          Curso de HTML
+        </a>
+        <a class="w3-bar-item w3-button w3-padding" href="web/web-css/index.php">
+          <img src="Archivo/img/all/css3.png"/>
+          Curso de CSS
+        </a>
+        <a class="w3-bar-item w3-button w3-padding" href="web/web-js/index.php">
+          <img src="Archivo/img/all/js.png"/>
+          Curso de JS
+        </a>
+        <a class="w3-bar-item w3-button w3-padding" href="PHP/index.html">
+          <img src="Archivo/img/all/php.png"/>
+          Curso de PHP
+        </a>
+        <a class="w3-bar-item w3-button w3-padding" href="web/mysql/index.php">
+          <img src="Archivo/img/all/mysql.png"/>
+          Curso de MySQL
+        </a>
+        <br/>
+        <br/>
+      </div>
+    </nav>
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" id="myOverlay" onclick="w3_close()" style="cursor:pointer" title="close side menu">
+    </div>
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+      <!-- Header -->
+      <header class="w3-container" style="padding-top:22px">
+        <h2>
+          Anotaciones  de cursos
+        </h2>
+        <h3>
+          Cursos de Juan Díaz "Píldoras Informáticas"
+        </h3>
+        <button class="w3-button w3-red">
+          <a href="https://www.pildorasinformaticas.es/" target="_blank">
+            Sito web
+          </a>
+        </button>
+        <button class="w3-button w3-red">
+          <a href="https://www.youtube.com/playlist?list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_" target="_blank">
+            Lista de reproducción
+          </a>
+        </button>
+      </header>
+      <hr/>
+      <br/>
+      <footer class="w3-container w3-margin w3-card-4" style="padding: 25px 0px; background-color: #1DA1F2; color: white;">
+        <div class="w3-row">
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-green">
+              Maqueado y estilo para la web
+            </h5>
+            <p>
+              HTML
+            </p>
+            <p>
+              CSS
+            </p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-red">
+              Inteligencia y comportamiento
+            </h5>
+            <p>
+              JavaScript
+            </p>
+            <p>
+              PHP
+            </p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-orange">
+              Almacenamiento de datos
+            </h5>
+            <p>
+              MySQL
+            </p>
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-container">
+            <h5 class="w3-bottombar w3-border-white">
+              Referencia:
+            </h5>
+            <p>
+              Documentación:
+              <cite>
+                MDN Web Docs. (s. f.). MDN. Recuperado 22 de marzo de 2021, de
+                <a href=" https://developer.mozilla.org/en-US/" target="_blank">
+                  https://developer.mozilla.org/en-US/
+                </a>
+              </cite>
+            </p>
+            <p>
+              Licencia:
+              <cite>
+                Mozilla.org Site Licensing Policies. (s. f.). Mozilla. Recuperado 22 de marzo de 2021, de
+                <a href="  https://www.mozilla.org/en-US/foundation/licensing/website-content/" target="_blank">
+                  https://www.mozilla.org/en-US/foundation/licensing/website-content/
+                </a>
+              </cite>
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- End page content -->
+    </div>
+    <script>
+      // Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+    </script>
+  </body>
+</html>
